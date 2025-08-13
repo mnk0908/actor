@@ -1,0 +1,14 @@
+{
+  "name": "multi-ats-career-scraper",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.6",
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^13.0.0",
+    "normalize-url": "^8.0.1"
+  }
+}

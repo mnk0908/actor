@@ -1,0 +1,14 @@
+{
+  "actorSpecification": 1,
+  "name": "multi-ats-career-scraper",
+  "title": "Multi-ATS Career Page Scraper",
+  "description": "Scrapes jobs (all details + links) from a mixed list of company career pages across ATS providers: Workday, Greenhouse, Lever, SmartRecruiters, Darwinbox, Oracle Cloud HCM, and generic custom sites.",
+  "version": "0.1.0",
+  "buildTag": "latest",
+  "meta": {
+    "template": "project-empty"
+  },
+  "input": "INPUT_SCHEMA.json",
+  "dockerfile": "Dockerfile",
+  "nodeVersion": "18"
+}

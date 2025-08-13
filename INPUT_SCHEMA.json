@@ -1,0 +1,179 @@
+{
+  "title": "Multi-ATS Job Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrls": {
+      "title": "Career page URLs",
+      "type": "array",
+      "description": "List of career pages to scrape (company career pages or direct ATS pages).",
+      "editor": "requestListSources",
+      "prefill": [
+        {
+          "url": "https://www.flipkartcareers.com/#!/joblist"
+        },
+        {
+          "url": "https://www.shopify.com/careers/search"
+        },
+        {
+          "url": "https://www.meesho.io/jobs"
+        },
+        {
+          "url": "https://purple.wd1.myworkdayjobs.com/purplecareers"
+        },
+        {
+          "url": "https://bigbasket.darwinbox.in/ms/candidate/careers"
+        },
+        {
+          "url": "https://careers.swiggy.com/#/"
+        },
+        {
+          "url": "https://jobs.myntra.com/jobs"
+        },
+        {
+          "url": "https://jobs.ebayinc.com/us/en/search-results?from=100&s=1"
+        },
+        {
+          "url": "https://www.fynd.com/careers"
+        },
+        {
+          "url": "https://www.amazon.jobs/content/en/job-categories"
+        },
+        {
+          "url": "https://careers.etsy.com/"
+        },
+        {
+          "url": "https://cliqonnect.darwinbox.in/ms/candidate/careers"
+        },
+        {
+          "url": "https://careers.walmart.com/"
+        },
+        {
+          "url": "https://zepto.talentrecruit.com/career-page"
+        },
+        {
+          "url": "https://career.hm.com/search/"
+        },
+        {
+          "url": "https://blinkit.com/careers/jobs"
+        },
+        {
+          "url": "https://hiring.lenskart.com/jobs?tabId=allCountries"
+        },
+        {
+          "url": "https://www.inditexcareers.com/"
+        },
+        {
+          "url": "https://global.rakuten.com/corp/careers/"
+        },
+        {
+          "url": "https://paytm.com/careers"
+        },
+        {
+          "url": "https://blog.snapdeal.com/index.php/careers/"
+        },
+        {
+          "url": "https://www.nykaafashion.com/lp/careers"
+        },
+        {
+          "url": "https://www.redbus.in/careers/jobs"
+        },
+        {
+          "url": "https://careers.nike.com/career-areas"
+        },
+        {
+          "url": "https://corporate.target.com/careers/career-areas"
+        },
+        {
+          "url": "https://poshmark.com/careers"
+        },
+        {
+          "url": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/"
+        },
+        {
+          "url": "https://group.jumia.com/careers"
+        },
+        {
+          "url": "https://careers.ril.com/rilcareers/index.aspx"
+        },
+        {
+          "url": "https://careers.indiamart.com/"
+        },
+        {
+          "url": "https://www.careers.philips.com/in/en/search-results"
+        },
+        {
+          "url": "https://careers.cencora.com/us/en/search-results"
+        },
+        {
+          "url": "https://careers.fresh2home.com/fresh2home/"
+        },
+        {
+          "url": "https://www.lazada.com/en/careers/"
+        },
+        {
+          "url": "https://jobs.zalando.com/en/jobs"
+        },
+        {
+          "url": "https://www.aboutwayfair.com/careers"
+        },
+        {
+          "url": "https://careers.olx.in/join-us/"
+        },
+        {
+          "url": "https://www.joor.com/careers"
+        },
+        {
+          "url": "https://instacart.careers/"
+        },
+        {
+          "url": "https://careers.hellofresh.com/global/en"
+        },
+        {
+          "url": "https://career.mytheresa.com/en/"
+        },
+        {
+          "url": "https://jumbotail.com/careers/"
+        },
+        {
+          "url": "https://www.healthkart.com/careers"
+        },
+        {
+          "url": "https://livspace.sensehq.com/careers"
+        },
+        {
+          "url": "https://www.houseofindya.com/careers"
+        },
+        {
+          "url": "https://www.shopclues.com/career.html?sef_rewrite=1"
+        },
+        {
+          "url": "https://www.spinny.com/careers/"
+        },
+        {
+          "url": "https://in.bookmyshow.com/careers/job-listing"
+        },
+        {
+          "url": "https://www.zetwerk.com/careers/"
+        },
+        {
+          "url": "https://proeffico.com/reach-us/"
+        }
+      ]
+    },
+    "useApifyProxy": {
+      "title": "Use Apify Proxy",
+      "type": "boolean",
+      "description": "Route traffic via Apify Proxy for reliability.",
+      "default": true
+    },
+    "maxRequestsPerWebsite": {
+      "title": "Max requests per website",
+      "type": "integer",
+      "default": 200
+    }
+  },
+  "required": [
+    "startUrls"
+  ]
+}
